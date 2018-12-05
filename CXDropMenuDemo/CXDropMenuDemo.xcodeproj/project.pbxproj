@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952739F421B77473005D4BD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 952739F321B77473005D4BD0 /* AppDelegate.m */; };
+		952739F721B77473005D4BD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952739F621B77473005D4BD0 /* ViewController.m */; };
+		952739FA21B77473005D4BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952739F821B77473005D4BD0 /* Main.storyboard */; };
+		952739FC21B77475005D4BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952739FB21B77475005D4BD0 /* Assets.xcassets */; };
+		952739FF21B77475005D4BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952739FD21B77475005D4BD0 /* LaunchScreen.storyboard */; };
+		95273A0221B77475005D4BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95273A0121B77475005D4BD0 /* main.m */; };
+		95273A2021B774AC005D4BD0 /* ChXDropDownMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A0B21B774AB005D4BD0 /* ChXDropDownMenuConfiguration.swift */; };
+		95273A2121B774AC005D4BD0 /* ChXDropDownMenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A0C21B774AB005D4BD0 /* ChXDropDownMenuDataSource.swift */; };
+		95273A2221B774AC005D4BD0 /* ChXDropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A0D21B774AC005D4BD0 /* ChXDropDownMenu.swift */; };
+		95273A2321B774AC005D4BD0 /* ChXDropMenuTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A1021B774AC005D4BD0 /* ChXDropMenuTableView.swift */; };
+		95273A2721B774AC005D4BD0 /* ChXDropMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A1421B774AC005D4BD0 /* ChXDropMenuTableViewCell.swift */; };
+		95273A2821B774AC005D4BD0 /* ChXDropMenuTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A1521B774AC005D4BD0 /* ChXDropMenuTableViewModel.swift */; };
+		95273A2921B774AC005D4BD0 /* ChXFlowTagsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95273A1721B774AC005D4BD0 /* ChXFlowTagsCell.xib */; };
+		95273A2A21B774AC005D4BD0 /* ChXFlowTagsSectionHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A1821B774AC005D4BD0 /* ChXFlowTagsSectionHeadView.swift */; };
+		95273A2B21B774AC005D4BD0 /* ChXFlowTagsSectionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95273A1921B774AC005D4BD0 /* ChXFlowTagsSectionHeadView.xib */; };
+		95273A2C21B774AC005D4BD0 /* ChXFlowTagsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A1A21B774AC005D4BD0 /* ChXFlowTagsCellViewModel.swift */; };
+		95273A2D21B774AC005D4BD0 /* ChXFlowTagsViewFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95273A1B21B774AC005D4BD0 /* ChXFlowTagsViewFooter.xib */; };
+		95273A2E21B774AC005D4BD0 /* ChXFlowTagsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A1C21B774AC005D4BD0 /* ChXFlowTagsCell.swift */; };
+		95273A2F21B774AC005D4BD0 /* FlowTagsImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95273A1D21B774AC005D4BD0 /* FlowTagsImage.xcassets */; };
+		95273A3021B774AC005D4BD0 /* ChXFlowTagsViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A1E21B774AC005D4BD0 /* ChXFlowTagsViewFooter.swift */; };
+		95273A3121B774AC005D4BD0 /* ChXFlowTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273A1F21B774AC005D4BD0 /* ChXFlowTagsView.swift */; };
+		95273A3421B774FE005D4BD0 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 95273A3221B774FE005D4BD0 /* UICollectionViewLeftAlignedLayout.m */; };
+		95273A3A21B7765F005D4BD0 /* SingleTableImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95273A3921B7765F005D4BD0 /* SingleTableImage.xcassets */; };
+		95273A3D21B77895005D4BD0 /* ChXDropMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95273A3C21B77895005D4BD0 /* ChXDropMenuViewModel.m */; };
+		95273A3F21B77D0A005D4BD0 /* ChXDropMenuData.json in Resources */ = {isa = PBXBuildFile; fileRef = 95273A3E21B77D0A005D4BD0 /* ChXDropMenuData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		952739EF21B77473005D4BD0 /* CXDropMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXDropMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		952739F221B77473005D4BD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		952739F321B77473005D4BD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		952739F521B77473005D4BD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		952739F621B77473005D4BD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		952739F921B77473005D4BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		952739FB21B77475005D4BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		952739FE21B77475005D4BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95273A0021B77475005D4BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95273A0121B77475005D4BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95273A0921B774AA005D4BD0 /* CXDropMenuDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CXDropMenuDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		95273A0B21B774AB005D4BD0 /* ChXDropDownMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXDropDownMenuConfiguration.swift; sourceTree = "<group>"; };
+		95273A0C21B774AB005D4BD0 /* ChXDropDownMenuDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXDropDownMenuDataSource.swift; sourceTree = "<group>"; };
+		95273A0D21B774AC005D4BD0 /* ChXDropDownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXDropDownMenu.swift; sourceTree = "<group>"; };
+		95273A1021B774AC005D4BD0 /* ChXDropMenuTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXDropMenuTableView.swift; sourceTree = "<group>"; };
+		95273A1421B774AC005D4BD0 /* ChXDropMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXDropMenuTableViewCell.swift; sourceTree = "<group>"; };
+		95273A1521B774AC005D4BD0 /* ChXDropMenuTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXDropMenuTableViewModel.swift; sourceTree = "<group>"; };
+		95273A1721B774AC005D4BD0 /* ChXFlowTagsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChXFlowTagsCell.xib; sourceTree = "<group>"; };
+		95273A1821B774AC005D4BD0 /* ChXFlowTagsSectionHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXFlowTagsSectionHeadView.swift; sourceTree = "<group>"; };
+		95273A1921B774AC005D4BD0 /* ChXFlowTagsSectionHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChXFlowTagsSectionHeadView.xib; sourceTree = "<group>"; };
+		95273A1A21B774AC005D4BD0 /* ChXFlowTagsCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXFlowTagsCellViewModel.swift; sourceTree = "<group>"; };
+		95273A1B21B774AC005D4BD0 /* ChXFlowTagsViewFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChXFlowTagsViewFooter.xib; sourceTree = "<group>"; };
+		95273A1C21B774AC005D4BD0 /* ChXFlowTagsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXFlowTagsCell.swift; sourceTree = "<group>"; };
+		95273A1D21B774AC005D4BD0 /* FlowTagsImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlowTagsImage.xcassets; sourceTree = "<group>"; };
+		95273A1E21B774AC005D4BD0 /* ChXFlowTagsViewFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXFlowTagsViewFooter.swift; sourceTree = "<group>"; };
+		95273A1F21B774AC005D4BD0 /* ChXFlowTagsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChXFlowTagsView.swift; sourceTree = "<group>"; };
+		95273A3221B774FE005D4BD0 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		95273A3321B774FE005D4BD0 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		95273A3921B7765F005D4BD0 /* SingleTableImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SingleTableImage.xcassets; sourceTree = "<group>"; };
+		95273A3B21B77895005D4BD0 /* ChXDropMenuViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChXDropMenuViewModel.h; sourceTree = "<group>"; };
+		95273A3C21B77895005D4BD0 /* ChXDropMenuViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChXDropMenuViewModel.m; sourceTree = "<group>"; };
+		95273A3E21B77D0A005D4BD0 /* ChXDropMenuData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ChXDropMenuData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952739EC21B77473005D4BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952739E621B77473005D4BD0 = {
+			isa = PBXGroup;
+			children = (
+				952739F121B77473005D4BD0 /* CXDropMenuDemo */,
+				952739F021B77473005D4BD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952739F021B77473005D4BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952739EF21B77473005D4BD0 /* CXDropMenuDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952739F121B77473005D4BD0 /* CXDropMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				95273A0821B7749A005D4BD0 /* CXDropMenu */,
+				952739F221B77473005D4BD0 /* AppDelegate.h */,
+				952739F321B77473005D4BD0 /* AppDelegate.m */,
+				952739F521B77473005D4BD0 /* ViewController.h */,
+				952739F621B77473005D4BD0 /* ViewController.m */,
+				95273A3B21B77895005D4BD0 /* ChXDropMenuViewModel.h */,
+				95273A3C21B77895005D4BD0 /* ChXDropMenuViewModel.m */,
+				952739F821B77473005D4BD0 /* Main.storyboard */,
+				952739FB21B77475005D4BD0 /* Assets.xcassets */,
+				952739FD21B77475005D4BD0 /* LaunchScreen.storyboard */,
+				95273A0021B77475005D4BD0 /* Info.plist */,
+				95273A0121B77475005D4BD0 /* main.m */,
+			);
+			path = CXDropMenuDemo;
+			sourceTree = "<group>";
+		};
+		95273A0821B7749A005D4BD0 /* CXDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				95273A3321B774FE005D4BD0 /* UICollectionViewLeftAlignedLayout.h */,
+				95273A3221B774FE005D4BD0 /* UICollectionViewLeftAlignedLayout.m */,
+				95273A0D21B774AC005D4BD0 /* ChXDropDownMenu.swift */,
+				95273A0A21B774AB005D4BD0 /* Base */,
+				95273A0E21B774AC005D4BD0 /* Custom */,
+				95273A0921B774AA005D4BD0 /* CXDropMenuDemo-Bridging-Header.h */,
+				95273A3E21B77D0A005D4BD0 /* ChXDropMenuData.json */,
+			);
+			path = CXDropMenu;
+			sourceTree = "<group>";
+		};
+		95273A0A21B774AB005D4BD0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				95273A0B21B774AB005D4BD0 /* ChXDropDownMenuConfiguration.swift */,
+				95273A0C21B774AB005D4BD0 /* ChXDropDownMenuDataSource.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		95273A0E21B774AC005D4BD0 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				95273A0F21B774AC005D4BD0 /* TableView */,
+				95273A1621B774AC005D4BD0 /* FlowTagsView */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		95273A0F21B774AC005D4BD0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				95273A1021B774AC005D4BD0 /* ChXDropMenuTableView.swift */,
+				95273A1421B774AC005D4BD0 /* ChXDropMenuTableViewCell.swift */,
+				95273A1521B774AC005D4BD0 /* ChXDropMenuTableViewModel.swift */,
+				95273A3921B7765F005D4BD0 /* SingleTableImage.xcassets */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		95273A1621B774AC005D4BD0 /* FlowTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				95273A1F21B774AC005D4BD0 /* ChXFlowTagsView.swift */,
+				95273A1D21B774AC005D4BD0 /* FlowTagsImage.xcassets */,
+				95273A3721B775D5005D4BD0 /* ViewModel */,
+				95273A3521B7755D005D4BD0 /* Cell */,
+				95273A3621B77570005D4BD0 /* Header */,
+				95273A3821B7760C005D4BD0 /* Footer */,
+			);
+			path = FlowTagsView;
+			sourceTree = "<group>";
+		};
+		95273A3521B7755D005D4BD0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				95273A1C21B774AC005D4BD0 /* ChXFlowTagsCell.swift */,
+				95273A1721B774AC005D4BD0 /* ChXFlowTagsCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		95273A3621B77570005D4BD0 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				95273A1821B774AC005D4BD0 /* ChXFlowTagsSectionHeadView.swift */,
+				95273A1921B774AC005D4BD0 /* ChXFlowTagsSectionHeadView.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		95273A3721B775D5005D4BD0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				95273A1A21B774AC005D4BD0 /* ChXFlowTagsCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		95273A3821B7760C005D4BD0 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				95273A1B21B774AC005D4BD0 /* ChXFlowTagsViewFooter.xib */,
+				95273A1E21B774AC005D4BD0 /* ChXFlowTagsViewFooter.swift */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952739EE21B77473005D4BD0 /* CXDropMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95273A0521B77475005D4BD0 /* Build configuration list for PBXNativeTarget "CXDropMenuDemo" */;
+			buildPhases = (
+				952739EB21B77473005D4BD0 /* Sources */,
+				952739EC21B77473005D4BD0 /* Frameworks */,
+				952739ED21B77473005D4BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXDropMenuDemo;
+			productName = CXDropMenuDemo;
+			productReference = 952739EF21B77473005D4BD0 /* CXDropMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952739E721B77473005D4BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xu.yzl;
+				TargetAttributes = {
+					952739EE21B77473005D4BD0 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 952739EA21B77473005D4BD0 /* Build configuration list for PBXProject "CXDropMenuDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 952739E621B77473005D4BD0;
+			productRefGroup = 952739F021B77473005D4BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952739EE21B77473005D4BD0 /* CXDropMenuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952739ED21B77473005D4BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95273A2921B774AC005D4BD0 /* ChXFlowTagsCell.xib in Resources */,
+				95273A3F21B77D0A005D4BD0 /* ChXDropMenuData.json in Resources */,
+				952739FF21B77475005D4BD0 /* LaunchScreen.storyboard in Resources */,
+				95273A2B21B774AC005D4BD0 /* ChXFlowTagsSectionHeadView.xib in Resources */,
+				95273A2F21B774AC005D4BD0 /* FlowTagsImage.xcassets in Resources */,
+				952739FC21B77475005D4BD0 /* Assets.xcassets in Resources */,
+				95273A2D21B774AC005D4BD0 /* ChXFlowTagsViewFooter.xib in Resources */,
+				95273A3A21B7765F005D4BD0 /* SingleTableImage.xcassets in Resources */,
+				952739FA21B77473005D4BD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952739EB21B77473005D4BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95273A2821B774AC005D4BD0 /* ChXDropMenuTableViewModel.swift in Sources */,
+				95273A3021B774AC005D4BD0 /* ChXFlowTagsViewFooter.swift in Sources */,
+				95273A2121B774AC005D4BD0 /* ChXDropDownMenuDataSource.swift in Sources */,
+				95273A2721B774AC005D4BD0 /* ChXDropMenuTableViewCell.swift in Sources */,
+				95273A3421B774FE005D4BD0 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				952739F721B77473005D4BD0 /* ViewController.m in Sources */,
+				95273A2321B774AC005D4BD0 /* ChXDropMenuTableView.swift in Sources */,
+				95273A0221B77475005D4BD0 /* main.m in Sources */,
+				95273A3121B774AC005D4BD0 /* ChXFlowTagsView.swift in Sources */,
+				95273A2E21B774AC005D4BD0 /* ChXFlowTagsCell.swift in Sources */,
+				95273A3D21B77895005D4BD0 /* ChXDropMenuViewModel.m in Sources */,
+				95273A2A21B774AC005D4BD0 /* ChXFlowTagsSectionHeadView.swift in Sources */,
+				95273A2021B774AC005D4BD0 /* ChXDropDownMenuConfiguration.swift in Sources */,
+				952739F421B77473005D4BD0 /* AppDelegate.m in Sources */,
+				95273A2221B774AC005D4BD0 /* ChXDropDownMenu.swift in Sources */,
+				95273A2C21B774AC005D4BD0 /* ChXFlowTagsCellViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		952739F821B77473005D4BD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952739F921B77473005D4BD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		952739FD21B77475005D4BD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952739FE21B77475005D4BD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95273A0321B77475005D4BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95273A0421B77475005D4BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95273A0621B77475005D4BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GRN7HWGGT;
+				INFOPLIST_FILE = CXDropMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "georry-chen.CXDropMenuDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CXDropMenuDemo/CXDropMenu/CXDropMenuDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95273A0721B77475005D4BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GRN7HWGGT;
+				INFOPLIST_FILE = CXDropMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "georry-chen.CXDropMenuDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CXDropMenuDemo/CXDropMenu/CXDropMenuDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952739EA21B77473005D4BD0 /* Build configuration list for PBXProject "CXDropMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95273A0321B77475005D4BD0 /* Debug */,
+				95273A0421B77475005D4BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95273A0521B77475005D4BD0 /* Build configuration list for PBXNativeTarget "CXDropMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95273A0621B77475005D4BD0 /* Debug */,
+				95273A0721B77475005D4BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 952739E721B77473005D4BD0 /* Project object */;
+}

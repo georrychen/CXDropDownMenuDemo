@@ -1,0 +1,56 @@
+[
+    {
+        "childSubjectList" : [
+            {
+                "childSubjectList" : [],
+                "subjectId" : 4,
+                "subjectName" : "19银行春招"
+            },
+            {
+                "childSubjectList" : [],
+                "subjectId" : 3,
+                "subjectName" : "19银行秋招"
+            }
+        ],
+        "subjectId" : 2,
+        "subjectName" : "银行"
+    },
+    {
+        "childSubjectList" : [
+            {
+                "childSubjectList" : [],
+                "subjectId" : 5,
+                "subjectName" : "2018农信社"
+            }
+        ],
+        "subjectId" : 1,
+        "subjectName" : "农信社"
+    },
+    {
+        "childSubjectList" : [
+            {
+                "childSubjectList" : [],
+                "subjectId" : 9,
+                "subjectName" : "期货从业"
+            },
+            {
+                "childSubjectList" : [],
+                "subjectId" : 8,
+                "subjectName" : "证券从业"
+            },
+            {
+                "childSubjectList" : [],
+                "subjectId" : 7,
+                "subjectName" : "银行职业"
+            }
+            
+        ],
+        "subjectId" : 6,
+        "subjectName" : "金融资格证"
+    },
+    {
+        "childSubjectList" : [],
+        "subjectId" : 11,
+        "subjectName" : "测试"
+    }
+]
